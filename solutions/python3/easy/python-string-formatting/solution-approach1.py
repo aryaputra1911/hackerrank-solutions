@@ -5,7 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-06-04, 09:11 p.m.
+# Submitted   2026-06-04, 09:48 p.m.
 # ──────────────────────────────────────────────────
 
 def print_formatted(number):
