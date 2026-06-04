@@ -1,0 +1,21 @@
+# ──────────────────────────────────────────────────
+# Problem     List Comprehensions
+# Difficulty  Easy
+# Subdomain   Basic Data Types
+# Platform    HackerRank
+# Language    python3
+# Status      Accepted
+# Submitted   2026-06-04, 03:25 p.m.
+# ──────────────────────────────────────────────────
+
+if __name__ == '__main__':
+    x = int(input())
+    y = int(input())
+    z = int(input())
+    n = int(input())
+    
+    a = [[i,j,k] for i in range(x+1) for j in range(y+1) for k in range(z+1) if (i + j + k) != n]
+    print(a)
+ 
+                   
+        
