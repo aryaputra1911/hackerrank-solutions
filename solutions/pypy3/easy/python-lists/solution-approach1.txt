@@ -1,0 +1,42 @@
+# ──────────────────────────────────────────────────
+# Problem     Lists
+# Difficulty  Easy
+# Subdomain   Basic Data Types
+# Platform    HackerRank
+# Language    pypy3
+# Status      Accepted
+# Submitted   2026-06-08, 09:07 a.m.
+# ──────────────────────────────────────────────────
+
+if __name__ == '__main__':
+    N = int(input())
+    result = []
+
+    for _ in range(N):
+        command_input = input().split()
+        cmd = command_input[0] 
+
+        if cmd == "insert":
+            pos = int(command_input[1])
+            val = int(command_input[2])
+            result.insert(pos, val)
+            
+        elif cmd == "print":
+            print(result)
+            
+        elif cmd == "remove":
+            val = int(command_input[1])
+            result.remove(val)
+            
+        elif cmd == "append":
+            val = int(command_input[1])
+            result.append(val)
+            
+        elif cmd == "sort":
+            result.sort()
+            
+        elif cmd == "pop":
+            result.pop()
+            
+        elif cmd == "reverse":
+            result.reverse()
