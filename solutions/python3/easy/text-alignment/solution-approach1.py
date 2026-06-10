@@ -5,7 +5,7 @@
 # Platform    HackerRank
 # Language    python3
 # Status      Accepted
-# Submitted   2026-06-10, 04:47 p.m.
+# Submitted   2026-06-10, 04:48 p.m.
 # ──────────────────────────────────────────────────
 
 #Replace all ______ with rjust, ljust or center. 
